@@ -6,9 +6,9 @@ app.use(cors()); // Ativando o CORS package.
 const PORT = 3001; // Porta de acesso localhost.
 
 const names = { name: "abc" };
-const palavroes = {words: "poha;caralho;buceta;cuceta"};
+const palavroes = {words: "hello"};
 const scan = {words: "giftcard steam;giftcard stean"}
-const dezoito = {words: "porno;prono;gay porn;porn; porn gay"}
+const dezoito = {words: "p"}
 const data = {
   number: 0,
   text: "",
