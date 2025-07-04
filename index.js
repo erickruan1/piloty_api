@@ -9,6 +9,11 @@ const names = { name: "abc" };
 const palavroes = {words: "hello"};
 const scan = {words: "giftcard steam;giftcard stean"}
 const dezoito = {words: "p"}
+const members = [
+  { members: "0"},
+  { online: "0"},
+];
+
 const data = {
   number: 0,
   text: "",
@@ -36,5 +41,7 @@ app.get("/data", (req, res) => {
 app.get("/palavroes", (req, res) => {
   res.send(palavroes);
 });
-
+app.get("/members", (req, res) => {
+  res.json(members);
+});
 app.listen(PORT, () => console.log(`O servidor está rodando na porta ${PORT}`));
