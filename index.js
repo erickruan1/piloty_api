@@ -13,7 +13,7 @@ let members = [
 ];
 
 const names = { name: "abc" };
-const palavroes = { words: "hello" };
+const palavroes = { words: "porra;poha;caralho;caralhos;arrombado;arombado;aronbado;arronbado" };
 const scan = { words: "giftcard steam;giftcard stean" };
 const dezoito = { words: "p" };
 
